@@ -30,6 +30,7 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
+      <br />
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
