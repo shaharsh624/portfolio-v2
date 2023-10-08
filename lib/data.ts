@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaFileCode, FaPen, FaReact, FaRegFileCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Computer Science Engineering",
+    location: "PDEU, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently studying exploring different fields in Computer Science. I'm in my 3rd year.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-2025",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Project Intern",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I created and tested website test cases and assisted with API testing using Postman, gaining valuable industry-standard skills.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Documentation Head",
+    location: "ACM, PDEU",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I am responsible for creating documentation for the chapter's apps and websites, as well as crafting content for posters and promotional messages to promote events.",
+    icon: React.createElement(FaRegFileCode),
+    date: "2023 - present",
   },
 ] as const;
 
@@ -88,20 +88,20 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "NodeJs",
+  "ExpressJS",
+  "ReactJS",
+  "NextJs",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "C++",
+  "Flutter",
+  "MongoDB",
+  "MySQL",
+  "Flask",
+  "Git",
+  "Linux",
+  "Bash",
+  "Postman",
+  "Figma",
 ] as const;
