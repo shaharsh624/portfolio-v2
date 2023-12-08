@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-lg leading-7">
       A passionate Frontend developer from India studying Computer Engineering at PDEU.{" "}
         I am a driven and motivated developer with a passion for solving complex problems & creating elegant and efficient solutions.{" "}
         <span className="italic">My favorite part of programming</span> is the
@@ -26,7 +26,7 @@ export default function About() {
         <br/>
       </p>
 
-      <p>
+      <p className="text-lg leading-7"> 
         <span className="italic">When I'm not coding</span>, I enjoy playing
         chess, reading, and watching movies. I also enjoy{" "}
         <span className="font-medium">learning new things</span> and dedicated to stay up-to-date with the latest industry trends and always seek new challenges to expand my skillset.
