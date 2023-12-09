@@ -100,7 +100,7 @@ export default function Intro() {
           target="_blank"
         >
           View Resume{" "}
-          <GrDocumentPdf  className="opacity-70 group-hover:translate-x-1 transition" />
+          <FiArrowUpRight  className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
         <a
