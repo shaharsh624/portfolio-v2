@@ -4,6 +4,7 @@ import { FaFileCode, FaPen, FaReact, FaRegFileCode } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import stockXImg from "@/public/stockX.png";
 import wattwatchImg from "@/public/wattwatch.png";
+import chatappImg from "@/public/chatapp.png";
 export const links = [
   {
     name: "Home",
@@ -74,6 +75,14 @@ export const projectsData = [
     tags: ["Flutter", "Flask", "MongoDB", "Firebase", "Google Maps API"],
     imageUrl: wattwatchImg,
     url: "https://github.com/shaharsh624/WattWatch",
+  },
+  {
+    title: "ChatApp",
+    description:
+      "A real-time messaging app with end-to-end encryption and intrusion detection for secure, private communication.",
+    tags: ["ReactJS", "Firebase", "Privacy", "Secure", "Intrusion Detection"],
+    imageUrl: chatappImg,
+    url: "https://github.com/shaharsh624/ChatApp",
   },
 ] as const;
 
