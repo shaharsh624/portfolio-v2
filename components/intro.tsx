@@ -5,7 +5,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { FiArrowUpRight } from "react-icons/fi";
+import { GrDocumentPdf } from "react-icons/gr";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -63,10 +64,14 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Harsh,</span> a{" "}
-        <span className="font-bold">full-stack developer</span>{" on a path of mastering "}
-        <span className="font-bold">machine learning </span>{" and "}
-        <span className="font-bold">cybersecurity.</span> My passion lies in crafting 
-        <span className="italic"> innovative solutions </span>{" at the intersection of technology and security."}
+        <span className="font-bold">full-stack developer</span>
+        {" on a path of mastering "}
+        <span className="font-bold">machine learning </span>
+        {" and "}
+        <span className="font-bold">cybersecurity.</span> My passion lies in
+        crafting
+        <span className="italic"> innovative solutions </span>
+        {" at the intersection of technology and security."}
       </motion.h1>
 
       <motion.div
@@ -79,23 +84,23 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-6 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight  className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Harsh Shah Resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1QvZ-27TeYHU-kI3YSzfQ2f-N8gqfdbsv/view?usp=sharing"
+          target="_blank"
         >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          View Resume{" "}
+          <GrDocumentPdf  className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
         <a
