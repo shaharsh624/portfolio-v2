@@ -66,9 +66,9 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Harsh,</span> a{" "}
         <span className="font-bold">full-stack developer</span>
         {" on a path of mastering "}
-        <span className="font-bold">machine learning </span>
+        <span className="font-bold">algorithms </span>
         {" and "}
-        <span className="font-bold">cybersecurity.</span> My passion lies in
+        <span className="font-bold">machine learning.</span> My passion lies in
         crafting
         <span className="italic"> innovative solutions </span>
         {" at the intersection of technology and security."}
