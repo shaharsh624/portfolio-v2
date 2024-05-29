@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaFileCode, FaPen, FaReact, FaRegFileCode } from "react-icons/fa";
+import { LiaCubeSolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
 import agrEvolveImg from "@/public/agrevolve.png";
 import answerLLMImg from "@/public/answerLLM.png";
@@ -36,28 +37,44 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Computer Science Engineering",
-        location: "PDEU, India",
+        title: "Summer Developer Intern",
+        location: "Iolite Softwares",
         description:
-            "I am currently studying exploring different fields in Computer Science. I'm in my 3rd year.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2021-2025",
+            "Looking forward to learn, apply and test my knowledge to gain valuable experience.",
+        icon: React.createElement(CgWorkAlt),
+        date: "May 2024 - Present",
     },
     {
         title: "Project Intern",
-        location: "Remote",
+        location: "Jio, RIL",
         description:
-            "I created and tested website test cases and assisted with API testing using Postman, gaining valuable industry-standard skills.",
+            "Created and tested website test cases and assisted with API testing using Postman, gaining valuable industry-standard skills.",
         icon: React.createElement(CgWorkAlt),
-        date: "2023",
+        date: "June - July 2023 ",
+    },
+    {
+        title: "Documentation Lead",
+        location: "Association of Computer Machinery, PDEU",
+        description:
+            "Responsible for creating documentation for the chapter's apps and websites, as well as crafting content for posters and promotional messages to promote events.",
+        icon: React.createElement(FaRegFileCode),
+        date: "Jan 2023 - Present",
+    },
+    {
+        title: "Event Planner",
+        location: "IEEE CIS PDEU Branch",
+        description:
+            "Colaborating across teams, coordinating logistics for successful event delivery.",
+        icon: React.createElement(FaRegFileCode),
+        date: "Jan 2023 - Present",
     },
     {
         title: "Documentation Head",
-        location: "ACM, PDEU",
+        location: "Cube-i-Cult, PDEU",
         description:
-            "I am responsible for creating documentation for the chapter's apps and websites, as well as crafting content for posters and promotional messages to promote events.",
-        icon: React.createElement(FaRegFileCode),
-        date: "2023 - present",
+            "Responsible for creating documentation for the club's events, as well as crafting content for posters and promotional messages to promote events.",
+        icon: React.createElement(LiaCubeSolid),
+        date: "Nov 2022 - Present",
     },
 ] as const;
 
@@ -76,7 +93,7 @@ export const projectsData = [
             "A Dashboard to provide one stop solution for all agriculture related information for farmers and integrating an API",
         tags: ["NextJS", "NodeJS", "ShadcnUI", "REST API", "Postman"],
         imageUrl: agrEvolveImg,
-        url: "https://github.com/vandeet0704/agrevolve",
+        url: "https://github.com/shaharsh624/agrevolve",
     },
     {
         title: "StockX",
@@ -111,26 +128,29 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    "HTML",
-    "CSS",
+    "Python",
     "JavaScript",
-    "NodeJs",
-    "ExpressJS",
-    "ReactJS",
-    "NextJs",
+    "C++",
     "Langchain",
     "TensorFlow",
-    "MLOps",
+    "Streamlit",
+    "Flask",
+    "Node.js",
+    "ExpressJS",
+    "Next.js",
+    "React.js",
+    "Tailwind",
+    "NumPy",
+    "Pandas",
     "AWS",
-    "Python",
-    "Java",
-    "C++",
-    "Flutter",
     "MongoDB",
     "MySQL",
-    "Flask",
+    "Firebase",
+    "Google Cloud Platform",
+    "Docker",
     "Git",
-    "Linux",
-    "Postman",
-    "Figma",
+    "GitHub",
+    "Google Colab",
+    "GNU/Linux",
+    "Data Science",
 ] as const;
