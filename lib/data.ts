@@ -42,7 +42,7 @@ export const experiencesData = [
         description:
             "Looking forward to learn, apply and test my knowledge to gain valuable experience.",
         icon: React.createElement(CgWorkAlt),
-        date: "May 2024 - Present",
+        date: "May - July 2024",
     },
     {
         title: "Project Intern",
