@@ -28,12 +28,12 @@ export default function Intro() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{
                             type: "tween",
-                            duration: 0.2,
+                            duration: 0.1,
                         }}
                     >
                         <Image
-                            src="/profile.jpg"
-                            alt="Ricardo portrait"
+                            src="/profile-1.jpg"
+                            alt="Harsh Profile Image"
                             width="192"
                             height="192"
                             quality="95"
