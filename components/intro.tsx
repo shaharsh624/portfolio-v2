@@ -32,7 +32,7 @@ export default function Intro() {
                         }}
                     >
                         <Image
-                            src="/profile-1.jpg"
+                            src="/profile-blue-bg.png"
                             alt="Harsh Profile Image"
                             width="192"
                             height="192"
