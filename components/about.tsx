@@ -18,25 +18,25 @@ export default function About() {
             id="about"
         >
             <SectionHeading>About me</SectionHeading>
-            <p className="mb-3 text-lg leading-7">
-                A passionate Frontend developer from India studying Computer
-                Engineering at PDEU. I am a driven and motivated developer with
-                a passion for solving complex problems & creating elegant and
-                efficient solutions.
-                <span className="italic"> My favorite part of programming</span>
-                is the problem-solving aspect.
+            <p className="mb-3 text-xl leading-8">
+                A passionate <span className="font-semibold">developer </span>
+                from India studying Computer Engineering at PDEU. I am a driven
+                and motivated with a passion for solving complex problems &
+                creating elegant and efficient solutions. My favorite part of
+                programming is the problem-solving aspect.
                 <br />
             </p>
 
-            <p className="text-lg leading-7">
+            <p className="text-xl leading-8">
                 <span className="italic">When I'm not coding</span>, I enjoy
                 playing chess, reading, and watching movies. I also enjoy
-                <span className="font-medium">learning new things</span> and
+                <span className="font-semibold"> learning new things</span> and
                 dedicated to stay up-to-date with the latest industry trends and
-                always seek new challenges to expand my skillset.
-                <br /> I am currently looking for a
-                <span className="font-medium">full-time position</span> as a
-                software developer.
+                always seek new challenges to expand my skillset.{" "}
+                <span className="font-bold">
+                    I am currently looking for a full-time position as a
+                    software developer.
+                </span>
             </p>
         </motion.section>
     );
