@@ -14,7 +14,7 @@ export const metadata = {
   description:
     "Harsh Shah is a Web Developer, Machine Learning Enthusiast and Researcher with a passion for creating engaging and intuitive user experiences.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/profile-blue-bg.png",
   },
 };
 
