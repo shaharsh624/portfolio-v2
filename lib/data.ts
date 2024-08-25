@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaFileCode, FaPen, FaReact, FaRegFileCode } from "react-icons/fa";
 import { LiaCubeSolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
+import shareclipImg from "@/public/shareclip.png";
 import agrEvolveImg from "@/public/agrevolve.png";
 import answerLLMImg from "@/public/answerLLM.png";
 import stockXImg from "@/public/stockX.png";
@@ -80,12 +81,12 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "AnswerLLM",
+        title: "ShareClip",
         description:
-            "A Question and Answer System that can answer queries based on already learnt Question-Answers.",
-        tags: ["Google Gemini", "Langchain", "FAISS", "MongoDB", "Streamlit"],
-        imageUrl: answerLLMImg,
-        url: "https://github.com/shaharsh624/AnswerLLM",
+            "A tool for securely sharing files and text over the internet, ensuring privacy with temporary storage and automatic deletion after a set validity period.",
+        tags: ["ReactJS", "ChakraUI", "Appwrite", "Vercel", "JavaScript"],
+        imageUrl: shareclipImg,
+        url: "https://shareclip.harshshah.me",
     },
     {
         title: "AgrEvolve",
@@ -96,12 +97,12 @@ export const projectsData = [
         url: "https://github.com/shaharsh624/agrevolve",
     },
     {
-        title: "StockX",
+        title: "AnswerLLM",
         description:
-            "A Web App that provides real-time Stock Market Data and Predictions using Machine Learning powered by News and Historical data.",
-        tags: ["HTML", "CSS", "JavaScript", "Flask", "Machine Learning"],
-        imageUrl: stockXImg,
-        url: "https://github.com/shaharsh624/StockX",
+            "A Question and Answer System that can answer queries based on already learnt Question-Answers.",
+        tags: ["Google Gemini", "Langchain", "FAISS", "MongoDB", "Streamlit"],
+        imageUrl: answerLLMImg,
+        url: "https://github.com/shaharsh624/AnswerLLM",
     },
     {
         title: "WattWatch",
@@ -110,6 +111,14 @@ export const projectsData = [
         tags: ["Flutter", "Flask", "MongoDB", "Firebase", "Google Maps API"],
         imageUrl: wattwatchImg,
         url: "https://github.com/shaharsh624/WattWatch",
+    },
+    {
+        title: "StockX",
+        description:
+            "A Web App that provides real-time Stock Market Data and Predictions using Machine Learning powered by News and Historical data.",
+        tags: ["HTML", "CSS", "JavaScript", "Flask", "Machine Learning"],
+        imageUrl: stockXImg,
+        url: "https://github.com/shaharsh624/StockX",
     },
     {
         title: "ChatApp",
@@ -123,7 +132,7 @@ export const projectsData = [
             "Intrusion Detection",
         ],
         imageUrl: chatappImg,
-        url: "https://github.com/shaharsh624/ChatApp",
+        url: "https://chatapp.harshshah.me",
     },
 ] as const;
 
