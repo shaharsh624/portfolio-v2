@@ -51,7 +51,7 @@ export const experiencesData = [
         description:
             "Created and tested website test cases and assisted with API testing using Postman, gaining valuable industry-standard skills.",
         icon: React.createElement(CgWorkAlt),
-        date: "June - July 2023 ",
+        date: "May - July 2023 ",
     },
     {
         title: "Documentation Lead",
