@@ -19,10 +19,10 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3 text-xl leading-8">
-                A passionate <span className="font-semibold">developer </span>
-                from India studying Computer Engineering at PDEU. I am a driven
-                and motivated with a passion for solving complex problems &
-                creating elegant and efficient solutions. My favorite part of
+                I'm a <span className="font-semibold">Software Engineer </span>
+                f on path of mastering algorithms and making machines learn. y
+                passion lies in crafting innovative solutions at the
+                intersection of technology and security. My favorite part of
                 programming is the problem-solving aspect.
                 <br />
             </p>
