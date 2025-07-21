@@ -38,10 +38,26 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Software Engineer",
+        location: "Iolite Softwares",
+        description:
+            "Implementing end-to-end solutions using AngularJS and .NET Core Framework and Python.",
+        icon: React.createElement(CgWorkAlt),
+        date: "July 2025 - Present",
+    },
+    {
+        title: "Software Engineer Intern",
+        location: "Iolite Softwares",
+        description:
+            "Implementing end-to-end solutions using AngularJS and .NET Core Framework and Python.",
+        icon: React.createElement(CgWorkAlt),
+        date: "Jan - Jan 2025",
+    },
+    {
         title: "Summer Developer Intern",
         location: "Iolite Softwares",
         description:
-            "Looking forward to learn, apply and test my knowledge to gain valuable experience.",
+            "Developed end-to-end data pipelines and created automated python scripts to process data.",
         icon: React.createElement(CgWorkAlt),
         date: "May - July 2024",
     },
@@ -53,30 +69,30 @@ export const experiencesData = [
         icon: React.createElement(CgWorkAlt),
         date: "May - July 2023 ",
     },
-    {
-        title: "Documentation Lead",
-        location: "Association of Computer Machinery, PDEU",
-        description:
-            "Responsible for creating documentation for the chapter's apps and websites, as well as crafting content for posters and promotional messages to promote events.",
-        icon: React.createElement(FaRegFileCode),
-        date: "Jan 2023 - Present",
-    },
-    {
-        title: "Event Planner",
-        location: "IEEE CIS PDEU Branch",
-        description:
-            "Colaborating across teams, coordinating logistics for successful event delivery.",
-        icon: React.createElement(FaRegFileCode),
-        date: "Jan 2023 - Present",
-    },
-    {
-        title: "Documentation Head",
-        location: "Cube-i-Cult, PDEU",
-        description:
-            "Responsible for creating documentation for the club's events, as well as crafting content for posters and promotional messages to promote events.",
-        icon: React.createElement(LiaCubeSolid),
-        date: "Nov 2022 - Present",
-    },
+    // {
+    //     title: "Documentation Lead",
+    //     location: "Association of Computer Machinery, PDEU",
+    //     description:
+    //         "Responsible for creating documentation for the chapter's apps and websites, as well as crafting content for posters and promotional messages to promote events.",
+    //     icon: React.createElement(FaRegFileCode),
+    //     date: "Jan 2023 - Present",
+    // },
+    // {
+    //     title: "Event Planner",
+    //     location: "IEEE CIS PDEU Branch",
+    //     description:
+    //         "Colaborating across teams, coordinating logistics for successful event delivery.",
+    //     icon: React.createElement(FaRegFileCode),
+    //     date: "Jan 2023 - Present",
+    // },
+    // {
+    //     title: "Documentation Head",
+    //     location: "Cube-i-Cult, PDEU",
+    //     description:
+    //         "Responsible for creating documentation for the club's events, as well as crafting content for posters and promotional messages to promote events.",
+    //     icon: React.createElement(LiaCubeSolid),
+    //     date: "Nov 2022 - Present",
+    // },
 ] as const;
 
 export const projectsData = [
