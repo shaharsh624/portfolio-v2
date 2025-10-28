@@ -21,7 +21,7 @@ export default function Intro() {
             id="home"
             className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
         >
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mb-10">
                 <div className="relative">
                     <motion.div
                         initial={{ opacity: 0, scale: 0 }}
@@ -59,17 +59,29 @@ export default function Intro() {
             </div>
 
             <motion.h1
-                className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+                className="mt-4 px-0 text-2xl font-medium !leading-[1.5] sm:text-4xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hello, I'm Harsh,</span> a{" "}
-                <span className="font-bold">full-stack developer</span>
-                {" on a path of mastering "}
+                <span className="font-bold">
+                    Hello, I'm{" "}
+                    <span className="italic dark:text-[#131927]">Harsh</span>,
+                </span>{" "}
+                a <span className="font-bold">full-stack developer</span>
+                {
+                    " skilled in building scalable, end-to-end applications, mastering "
+                }
                 <span className="font-bold">algorithms </span>
                 {" and "}
-                <span className="font-bold">machine learning.</span> My passion
-                lies in crafting
+                <span className="font-bold">machine learning.</span>
+            </motion.h1>
+            <motion.h1
+                className="mb-10 mt-4 px-0 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+            >
+                {" "}
+                My passion lies in crafting
                 <span className="italic"> innovative solutions </span>
                 {" at the intersection of technology and security."}
             </motion.h1>
@@ -84,14 +96,18 @@ export default function Intro() {
             >
                 <Link
                     href="#contact"
-                    className="group bg-gray-900 text-white px-6 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+                    className="group bg-gray-900 text-white px-6 py-3 flex justify-center
+                    items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
                     onClick={() => {
                         setActiveSection("Contact");
                         setTimeOfLastClick(Date.now());
                     }}
                 >
                     Contact me here{" "}
-                    <MdOutlineMail className="opacity-70 group-hover:translate-x-1 transition" />
+                    <MdOutlineMail
+                        className="opacity-70 group-hover:translate-x-1 transition"
+                        size="24px"
+                    />
                 </Link>
 
                 <div className="flex gap-2">
@@ -100,7 +116,7 @@ export default function Intro() {
                         href="https://www.linkedin.com/in/harshshahdev/"
                         target="_blank"
                     >
-                        <BsLinkedin />
+                        <BsLinkedin size="24px" />
                     </a>
 
                     <a
@@ -108,7 +124,7 @@ export default function Intro() {
                         href="https://github.com/shaharsh624"
                         target="_blank"
                     >
-                        <FaGithubSquare />
+                        <FaGithubSquare size="24px" />
                     </a>
 
                     <a
@@ -116,7 +132,7 @@ export default function Intro() {
                         href="https://twitter.com/_shaharshhh"
                         target="_blank"
                     >
-                        <FaSquareXTwitter />
+                        <FaSquareXTwitter size="24px" />
                     </a>
                 </div>
             </motion.div>

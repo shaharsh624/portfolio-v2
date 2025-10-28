@@ -41,7 +41,7 @@ export const experiencesData = [
         title: "Software Engineer",
         location: "Iolite Softwares",
         description:
-            "Implementing end-to-end solutions using AngularJS and .NET Core Framework and Python.",
+            "Designing Backend Systems, Implementing AI Pipelines, Improving Query Performance and handling deployment.",
         icon: React.createElement(CgWorkAlt),
         date: "July 2025 - Present",
     },
@@ -49,9 +49,9 @@ export const experiencesData = [
         title: "Software Engineer Intern",
         location: "Iolite Softwares",
         description:
-            "Implementing end-to-end solutions using AngularJS and .NET Core Framework and Python.",
+            "Built Auto Scrapers, Parsed large datasets, Implemented ETL Pipelines with advanced logging and monitoring.",
         icon: React.createElement(CgWorkAlt),
-        date: "Jan - Jan 2025",
+        date: "Jan - June 2025",
     },
     {
         title: "Summer Developer Intern",
@@ -63,7 +63,7 @@ export const experiencesData = [
     },
     {
         title: "Project Intern",
-        location: "Jio, RIL",
+        location: "Jio Platforms, RIL",
         description:
             "Created and tested website test cases and assisted with API testing using Postman, gaining valuable industry-standard skills.",
         icon: React.createElement(CgWorkAlt),
