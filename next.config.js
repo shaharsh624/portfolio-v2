@@ -25,6 +25,12 @@ const nextConfig = {
                     "https://links.harshshah.me/p2-cv",
                 permanent: true,
             },
+            {
+                source: "/iolite",
+                destination:
+                    "https://pdpuacin-my.sharepoint.com/:f:/g/personal/harsh_sce21_pdpu_ac_in/IgCsXkxM9FfdS4cdIj1ryF0-AZIGkdRC4-q7VXkndsxuJvw?e=uRQ9Pc",
+                permanent: true,
+            },
         ];
     },
 };
