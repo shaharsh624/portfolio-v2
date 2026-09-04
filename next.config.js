@@ -16,13 +16,13 @@ const nextConfig = {
             {
                 source: "/resume",
                 destination:
-                    "https://drive.google.com/file/d/1HbjmZ7IPBs3G88PhYMoJp3b030yLaLxK/view",
+                    "https://links.harshshah.me/p2-resume",
                 permanent: true,
             },
             {
                 source: "/cv",
                 destination:
-                    "https://drive.google.com/file/d/1hkIl2Kd9ATkhB8OAAo2EdyDMG2_SB9Ed/view",
+                    "https://links.harshshah.me/p2-cv",
                 permanent: true,
             },
         ];
